@@ -33,5 +33,7 @@ namespace asp_mvc_dua.Models.DB
         public System.Data.Entity.DbSet<asp_mvc_dua.Models.ViewModel.UserSignUpView> UserSignUpViews { get; set; }
 
         public System.Data.Entity.DbSet<asp_mvc_dua.Models.ViewModel.UserLoginView> UserLoginViews { get; set; }
+
+        public System.Data.Entity.DbSet<asp_mvc_dua.Models.ViewModel.UserProfileView> UserProfileViews { get; set; }
     }
 }
